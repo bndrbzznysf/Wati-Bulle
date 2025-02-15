@@ -1,0 +1,66 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section CTA */
+.cta-section {
+    border: 1px solid var(--vert-secondaire);
+    box-shadow: 0 0 12px var(--vert-primaire);
+    background-color: var(--fond-sombre);
+    border-radius: 64px;
+    text-align: center;
+    padding: 40px;
+    height: fit-content;
+    max-width: 600px;
+    width: 100%;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+/* Section des fonctionnalités */
+.features-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: var(--gris-fonce);
+    padding: 20px;
+    border-radius: 32px;
+    flex: 1;
+    min-height: 100%;
+    min-width: 210px;
+    transition: 0.3s all;
+}
+
+.feature-card:hover {
+    border-color: var(--vert-secondaire);
+    box-shadow: 0 0 6px var(--vert-primaire);
+    transform: scale(1.05);
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: var(--gris-clair);
+}
